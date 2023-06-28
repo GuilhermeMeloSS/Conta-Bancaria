@@ -11,9 +11,9 @@ public class ContaTerminal {
         float saldo = sc.nextFloat();
         System.out.println("Digite o nome do cliente: ");
         String nomeCliente = sc.next();
+     
       
-      
-        System.out.printf("Olá %s , obrigado por criar uma conta em nosso banco, sua agencia é  %s , conta %d e seu saldo de %f já está para saque." ,nomeCliente, agencia, numeroConta, saldo);
+        System.out.printf("Olá " +  nomeCliente + " obrigado por criar uma conta em nosso banco, sua agencia é  " + agencia + "  , conta " + numeroConta + " e seu saldo de " + saldo + "  já está para saque.");
 
 
 
